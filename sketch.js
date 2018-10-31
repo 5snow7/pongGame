@@ -3,7 +3,7 @@ let b,r;let c;
 function setup() {rectMode(CENTER);
 start();
 can=createCanvas(500,400);
-can.position(100,50);
+can.position(100,70);
 can.class("bdd");
 b=new ball(50,50,3,4.5);c=color(0,250,100);
 r=new rec(60,300);

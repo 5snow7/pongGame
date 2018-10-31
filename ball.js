@@ -20,7 +20,7 @@ ellipse(this.x,this.y,30,30);
 }	
 
 coll(r1){
-if(r1.x-5<this.x&&this.x<r1.x+5&&r1.y-30<this.y&&this.y<r1.y+30)
+if(r1.x-5<this.x&&this.x<r1.x+5&&r1.y-40<this.y&&this.y<r1.y+40)
 {this.xsp=-1*this.xsp;}
 }
 
@@ -35,7 +35,7 @@ this.y=yval;}
 
 display(){
 //rectMode(CENTER);
-rect(this.x,this.y,20,60);	
+rect(this.x,this.y,20,80);	
 }
 	
 }
