@@ -1,7 +1,7 @@
 
 class ball{
 	constructor(xs,ys,xsst,ysst){
-		this.x=xs;this.y=ys;
+		this.x=xs;this.y=ys;this.cnt=0;
 		this.xsp=xsst;this.ysp=ysst;
 	}
 	
@@ -21,7 +21,7 @@ ellipse(this.x,this.y,30,30);
 
 coll(r1){
 if(r1.x-5<this.x&&this.x<r1.x+5&&r1.y-40<this.y&&this.y<r1.y+40)
-{this.xsp=-1*this.xsp;}
+{this.xsp=-1*this.xsp;this.cnt++;}
 }
 
 }

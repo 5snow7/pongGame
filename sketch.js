@@ -11,7 +11,8 @@ r=new rec(60,300);
 
 function draw() {
 //clear();
-background(cbg);
+background(cbg);text(inp.value(),200,50);
 b.move();b.chbd();b.display(c);b.coll(r);
 r.move(sl.value());r.display();
+text("# of collisions is  " +b.cnt,250,350); 
 }
