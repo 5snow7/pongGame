@@ -11,11 +11,12 @@ function start(){
     par.position(700,50);
 	sl.parent('#par_sl');
     par.class('parbdd');	
-    h=select('#head');h.position(260,15);
+    h=select('#head');h.position(260,15);h.class('hbdd');
 }
 
 function theCode(){
 	//par2.html(inp.value());
+	if(inp.value()==12){cbg=color(0,200,100);}
 	if(inp.value()=="yes"){par2.html("correct");}
 	if(inp.value()!="yes"){par2.html("that is wrong code");}
 	}
