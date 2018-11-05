@@ -6,11 +6,10 @@ function start(){
 	inp.class('parbdd');inp.position(700,250);
 	inp.changed(theCode);
 	sl=createSlider(0,400,200);
-	//sl.position(700,50);
     par=createP(" ");par.id('par_sl');
-    par.position(700,50);
+    par.position(900,150);
 	sl.parent('#par_sl');
-    par.class('parbdd');	
+    par.class('parbdd');par.style('rotate',90);	
     h=select('#head');h.position(260,15);h.class('hbdd');
 }
 
