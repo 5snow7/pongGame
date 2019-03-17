@@ -15,7 +15,7 @@ function start(){
 
 function theCode(){
 	//par2.html(inp.value());
-	if(inp.value()==12){cbg=color(0,200,100);}
+	if(inp.value()==12){cbg=color(50,200,100);}
 	if(inp.value()=="yes"){par2.html("correct");}
 	if(inp.value()!="yes"){par2.html("that is wrong code");}
 	}
